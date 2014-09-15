@@ -1,5 +1,5 @@
 describe('ForagerBee class functionality', function() {
-  
+
   verifyClass(ForagerBee).followsPattern('pseudoclassical', {}, false);
 
   beforeEach(function() {
@@ -7,7 +7,7 @@ describe('ForagerBee class functionality', function() {
   });
 
   /*  Overwrite methods from superclass  */
-  
+
   it('should have an `age` property that is set to `10`', function() {
     expect(foragerBee.age).to.equal(10);
   });

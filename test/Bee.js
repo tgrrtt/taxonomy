@@ -18,11 +18,11 @@ describe('Bee class functionality', function() {
 
   /*  Inherited from superclass  */
 
-  it('should have a `food` property that is inhereted from grub', function() {
+  it('should have a `food` property that is inherited from grub', function() {
     expect(bee.food).to.equal('jelly');
   });
 
-  it('should have an `eat` method that is inhereted from grub', function() {
+  it('should have an `eat` method that is inherited from grub', function() {
     expect(bee.eat).to.be.a('function');
   });
 
